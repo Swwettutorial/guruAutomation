@@ -2,6 +2,7 @@ package testLayer;
 
 import pages.HomePage;
 import pages.LoginPage;
+import pages.RegisterUser;
 
 public class mainTest {
 
@@ -12,6 +13,9 @@ public class mainTest {
 		
 		HomePage home = new HomePage();
 		home.homePageLoginFunctionality();
+		
+		RegisterUser register = new RegisterUser();
+		register.clickOnRegisterPage();
 	}
 
 }
