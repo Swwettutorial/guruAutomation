@@ -1,5 +1,6 @@
 package testLayer;
 
+import pages.HomePage;
 import pages.LoginPage;
 
 public class mainTest {
@@ -9,6 +10,8 @@ public class mainTest {
 		LoginPage login = new LoginPage();
 		login.loginFunctionality("Sweety", "Aher");
 		
+		HomePage home = new HomePage();
+		home.homePageLoginFunctionality();
 	}
 
 }
